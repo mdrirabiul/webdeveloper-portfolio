@@ -167,5 +167,20 @@ main {
     margin-top: 50px;
 }
 
+/* footer styles */
 
-
+.footer-area{
+    display: flex;
+    background: #FFF8F3;
+    margin-top: 100px;
+    padding: 130px 200px;
+}
+.footer-title {
+    color: #181818;
+    font-size: 25px;
+    font-weight: 700;
+}
+.footer-description {
+    color: #757575;
+    font-size: 14px;
+}
