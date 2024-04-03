@@ -171,6 +171,8 @@ main {
 
 .footer-area{
     display: flex;
+    overflow: hidden;
+    gap: 50px;
     background: #FFF8F3;
     margin-top: 100px;
     padding: 130px 200px;
@@ -180,7 +182,25 @@ main {
     font-size: 25px;
     font-weight: 700;
 }
+.footer-column-1 {
+    width: 50%;
+}
 .footer-description {
     color: #757575;
     font-size: 14px;
+    margin-bottom: 20px;
+}
+.social-links a {
+    margin-right: 20px;
+}
+.contact input[type="text"], .contact input[type="email"], 
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border: 0;
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 100%;
 }
